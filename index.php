@@ -47,6 +47,33 @@
             </div>
         </div>
     </section>
+    <section class="py-16">
+        <div class="max-w-screen-xl m-auto px-5 text-center">
+            <h2 class="text-3xl font-bold mb-8">Cómo Funciona</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <i class="bi bi-box-seam text-4xl text-red-500 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Empaca tu paquete</h3>
+                    <p class="text-gray-600">Asegúrate de que tu paquete esté bien protegido.</p>
+                </div>
+                <div>
+                    <i class="bi bi-truck text-4xl text-red-500 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Recogida o entrega</h3>
+                    <p class="text-gray-600">Recogemos tu paquete en tu domicilio o punto de envío.</p>
+                </div>
+                <div>
+                    <i class="bi bi-geo-alt text-4xl text-red-500 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Seguimiento en tiempo real</h3>
+                    <p class="text-gray-600">Sigue tu envío desde nuestra plataforma en línea.</p>
+                </div>
+                <div>
+                    <i class="bi bi-check-circle text-4xl text-red-500 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Entrega segura</h3>
+                    <p class="text-gray-600">Tu paquete llega a su destino con total seguridad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php include("includes/footer.php"); ?>
