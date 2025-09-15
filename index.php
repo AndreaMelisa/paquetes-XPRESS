@@ -3,7 +3,7 @@
 
 <!-- CONTENIDO -->
 <main>
-    <!-- Hero / Banner principal -->
+
     <section class="bg-gradient-to-r from-orange-400 to-red-500 text-white py-20">
         <div class="max-w-screen-xl m-auto px-5 text-center">
             <h1 class="text-4xl md:text-5xl font-bold mb-4">
@@ -19,8 +19,6 @@
         </div>
     </section>
 
-
-    <!-- Servicios / Características -->
     <section class="py-16 bg-gray-100">
         <div class="max-w-screen-xl m-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
@@ -49,7 +47,6 @@
         </div>
     </section>
 
-    <!-- SLIDER DE IMÁGENES -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-screen-xl m-auto px-5 relative">
             <div class="overflow-hidden relative rounded-lg shadow-lg">
@@ -58,14 +55,12 @@
                     <img src="https://images.pexels.com/photos/6407446/pexels-photo-6407446.jpeg" class="w-full flex-shrink-0" alt="Envío 2">
                     <img src="https://images.pexels.com/photos/4440774/pexels-photo-4440774.jpeg" class="w-full flex-shrink-0" alt="Envío 3">
                 </div>
-                <!-- Botones de navegación -->
                 <button id="prev" class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white text-red-500 rounded-full p-2 shadow hover:bg-gray-100">&lt;</button>
                 <button id="next" class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white text-red-500 rounded-full p-2 shadow hover:bg-gray-100">&gt;</button>
             </div>
         </div>
     </section>
 
-    <!-- Cómo funciona -->
     <section class="py-16">
         <div class="max-w-screen-xl m-auto px-5 text-center">
             <h2 class="text-3xl font-bold mb-8">Cómo Funciona</h2>
@@ -94,7 +89,6 @@
         </div>
     </section>
 
-    <!-- Sección de texto con imagen al costado -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-screen-xl m-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div class="flex justify-center">
@@ -125,7 +119,6 @@
 
 <?php include("includes/footer.php"); ?>
 
-<!-- SCRIPT DEL SLIDER -->
 <script>
     const slider = document.querySelector('.slider');
     const slides = slider.children;
